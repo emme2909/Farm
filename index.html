@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatibile" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>Aliseo farm</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400.300.700" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+       <div class="container">
+           
+            <div class="slideshow-container">
+                <div class="header clearfix">
+                        <a href="" class="header_logo"><img  src="media/fatt.gif" alt="logo"></a>
+                        <a href="" class="header_icon-bar">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                        <ul class="header_menù animate">
+                            <li class="header_menù_item"><a href=""></a></li>
+                            <li class="header_menù_item"><a href=""></a></li>
+                            <li class="header_menù_item"><a href=""></a></li>
+                        </ul>
+                    
+                <div class="mySlides ">
+                    
+                    <img  src="media/pulcini.jpg" style="width:100%">
+                </div>
+    
+                <div class="mySlides fade">
+                    <img  src="media/cow.jpg" style="width:100%">
+                </div>
+    
+                <div class="mySlides fade">
+                    <img src="media/chick.jpg" style="width:100%">
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            </div>
+            
+            
+            </div>
+            <div class="content">
+                <h1 style="font-size: 55px; margin-left: 10px; color: rgb(171, 105, 25);">Aliseo farm</h1>
+                <article class="post">
+                    <h1>Su di noi:</h1>
+                    <p>La nostra fattoria nasce in un piccolo borgo  chiamato Rocca San Giovanni, situato in Abruzzo in provincia di Chieti. La fattoria nasce dall'amore immenso per gli animali e la natura. Aliseo infatti è il nostro primo cavallo, l'inizio di tutto, è lui il primo ad aver fatto nascere la nostra azienda.</p>
+                </article>
+                <article class="post">
+                    <h2>L'amore per la natura </h2>
+                    <p>Nata nel bel mezzo del nulla e circondata da boschi e prati da percorrere con 10 minuti dal mare e circa 1 ora dalla montagna</p>
+                </article>
+                <article class="post" id="animals"> 
+                    <h1 style="color: rgb(4, 61, 4);">I nostri animali</h1>
+                    <div class="animal_presentation">
+                        
+                            <div class="animal">
+                                <img class="animal_profile" src="media/chick_profile1.gif" alt="">
+                            </div>
+                       
+                    
+                        <div class="description_animal" id="description_animal">
+                            <h2>Rosita</h2>
+                            <div>
+                               La gallina dalle uova d'oro
+                            </div>
+                            <div style="margin: 15px; text-align: right;">26
+                            <i style=" font-size: 18px; margin-right: 5px; color: rgb(6, 70, 6);" class="fas fa-kiwi-bird"></i>
+                             <button class="bottom_play" type="button" onclick="playAudio()" onclick="pauseAudio()" style="border-style: none; margin-top: 10px;">
+                               <i class="fa fa-play" style="font-size:18px"></i><audio style="display: none;" id="myAudio" src="media/gallina.mp3"></audio></button>
+                            </div>
+                            </div>
+                    </div>   
+                    <div class="animal_presentation">
+                        
+                            <div class="animal">
+                                <img class="animal_profile" src="media/horse_profile.gif" alt="">
+                            </div>
+                        
+                    
+                        <div class="description_animal" >
+                            <h2>Aliseo</h2>
+                            <div>
+                                Il nostro primo cavallo
+                            </div>
+                            <div style="margin: 15px; text-align: right;">3
+                                <i style=" font-size: 18px; margin-right: 5px; color: rgb(6, 70, 6);" class="fas fa-horse-head"></i>
+                                 <button class="bottom_play" type="button" onclick="playAudio()" onclick="pauseAudio()" style="border-style: none; margin-top: 10px;">
+                                   <i class="fa fa-play" style="font-size:18px"></i><audio style="display: none;" id="myAudio" src="media/gallina.mp3"></audio></button>
+                                </div>
+                        </div>
+                    </div>   
+                    <div class="animal_presentation">
+                        
+                        <div class="animal">
+                            <img class="animal_profile" id="oca" src="media/oca.gif" alt="">
+                        </div>
+                    <div class="description_animal" >
+                        <h2>Ugo</h2>
+                        <div>
+                           Oche
+                        </div>
+                        <div style="margin: 15px; text-align: right;">17
+                            <i style=" font-size: 18px; margin-right: 5px; color: rgb(6, 70, 6);" class="fas fa-kiwi-bird"></i>
+                             <button class="bottom_play" type="button" onclick="playAudio()" onclick="pauseAudio()" style="border-style: none; margin-top: 10px;">
+                               <i class="fa fa-play" style="font-size:18px"></i><audio style="display: none;" id="myAudio" src="media/gallina.mp3"></audio></button>
+                            </div>
+                    </div>
+                </div>   
+                </article> 
+                <article class="post">
+                    <h2>Dove siamo </h2>
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1476.3587372800582!2d14.452015867711408!3d42.26320558504064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133102a10c021393%3A0x5f24693a4085a015!2s66020%20Bocache%20I%20CH!5e0!3m2!1sit!2sit!4v1587417923480!5m2!1sit!2sit" width="1100" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </article>
+            </div>
+           
+            <aside class="sidebar">
+                <div class="widget">
+                    <ul>
+                        <li><a href=""> Per i bambini</a></li>
+                        <li><a href=""> Le nostre attività</a></li>
+                        <li><a href=""> I nostri animali</a></li>
+
+                    </ul>
+                </div>
+            </aside>
+        </div> 
+       
+
+
+
+        
+
+       
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <script src="scripts.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    </body>
+</html>
